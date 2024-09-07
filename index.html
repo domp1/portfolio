@@ -72,13 +72,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.hmtl">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#project-page" class="scroll">Projects</a>
+                    <a class="nav-link scroll" href="#projects-page">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about-page" class="scroll">About</a>
+                    <a class="nav-link scroll" href="#about-page">About</a>
                 </li>
             </ul>
         </div>
@@ -87,51 +87,86 @@
         <h1 class="tittle display-4">Pablo Vieira</h1>
         <p class="lead">software developer</p>
     </div>
-
     <div class="container">
-      <div id="projects-preview">
+      <section id="projects-preview">
         <h2 class="section-title text-center">Projects</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4">
                     <div class="card-body">
-                        <h5 class="card-title">Project 1</h5>
-                        <p class="card-text">A brief description of the project goes here.</p>
-                        <a href="#" class="btn btn-primary">View Project</a>
+                        <h5 class="card-title">Todo List</h5>
+                        <p class="card-text">A project todo list using react.js.</p>
+                        <a href="#project1" class="btn btn-primary scroll">View Project</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card mb-4">
                     <div class="card-body">
-                        <h5 class="card-title">Project 2</h5>
-                        <p class="card-text">A brief description of the project goes here.</p>
-                        <a href="#" class="btn btn-primary">View Project</a>
+                        <h5 class="card-title">CRUD Driver System</h5>
+                        <p class="card-text">A  project builded for a test at SENAI, using codeIgniter as framework.</p>
+                        <a href="#project2" class="btn btn-primary scroll">View Project</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card mb-4">
                     <div class="card-body">
-                        <h5 class="card-title">Project 3</h5>
-                        <p class="card-text">A brief description of the project goes here.</p>
-                        <a href="#" class="btn btn-primary">View Project</a>
+                        <h5 class="card-title">Ilumination control</h5>
+                        <p class="card-text">A project to control a light with MQTT, esp32 and node.js.</p>
+                        <a href="#project3" class="btn btn-primary scroll">View Project</a>
                     </div>
                 </div>
             </div>
         </div>
-      </div>
-      <div id="about-page">
-        <h2 class="section-tittle">About me</h2>
+      </section>
+      <section id="about-page">
+        <h2 class="section-title text-center mt-5">About me</h2>
         <div class="row">
-          <p> Kkdjfmdnksksjskaksndjsksjdjdbfjshsksjsndjsjsjdjdjsjdjskhaiaoekwjskdksnsksjejdjdjssjsj</p>
+          <div class="col">
+            <p>My name is Pablo Henrique Vieira da Silva, im from Brazil, and im a systems development technician, with a year and a half of experience in the area, acquired during my course time.<br>  Along this path I was able to learn and study several languages ​​ch as c++, python, javascript, php, html and css, where I developed projects to deepen my knowledge, also learning some frameworks such as bootstrap (css), codeIgniter (php), and react.js. I am currently a freelancer looking for a job opportunity in the area, and I believe that with my skills and my persistent search for knowledge I will have what I want at some point.<br> If you are interested in my job, contact me in my instagram, linkedin or github.</p>
+            <a class="btn btn-secondary scroll" href="#footer">Contact me</a>
+          </div>
         </div>
-      </div> 
+      </section>
+      <section id="projects-page">
+        <h2 class="section-title text-center mt-5">My Projects</h2>
+        <div class="row">
+          <div class="col">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h3 class="card-title" id="project1">Todo List</h3>
+                <p class="card-text">A project todo list using react.js </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h3 class="card-title" id="project2">CRUD Driver System</h3>
+                <p class="card-text">A project builded for a test at SENAI, using codeIgniter as framework</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h3 class="card-title" id="project3">Ilumination control</h3>
+                <p class="card-text">A project to control a light with MQTT, esp32 and node.js</p>
+              </div>
+            </div>          
+          </div>
+        </div>
+      </section>
         <button id="backToTop" style="display:none;"><img src="../img/arrow-up.svg" alt="Voltar para o topo" style="width: 40px"></button>
     </div>
     
 
-    <footer class="">
+    <footer id="footer">
         <a href="https://www.instagram.com/pablo_wyh"><img src="../img/instagram.svg" alt="../img/instagram.svg" style="width: 70px;" class="col"></a>
         <a href="https://www.github.com/domp1"><img src="../img/github.svg" alt="../img/github.svg" style="width: 70px;" class="col"></a>
         <a href="https://www.linkedin.com/in/Pablovieira101"><img src="../img/linkedin.svg" alt="../img/linkedin.svg.svg" style="width: 70px;" class="col"></a>
